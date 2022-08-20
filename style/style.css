@@ -1,0 +1,49 @@
+.inputdiv{
+    position: relative;
+    display: inline-block;   
+    background-color: coral;
+}
+
+input{
+    padding: 0.2rem 0.5rem;
+    background-color: coral;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: inline-block;
+    outline: none;
+}
+
+i{
+    position: absolute;
+    right: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-right: 0.2rem;
+    margin-top: -0.2rem;
+    cursor: pointer;
+    
+}
+.containerdiv{
+    border-radius: 30px;
+    background-color: coral;
+    padding: 2rem;
+    width: 30%;
+
+}
+
+.row{
+    position: relative;
+}
+
+.containerwarning{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    
+    width: 300px;
+    color: rgb(213, 28, 28);
+    background-color: greenyellow;
+}
+.active{
+    display: none;
+}
